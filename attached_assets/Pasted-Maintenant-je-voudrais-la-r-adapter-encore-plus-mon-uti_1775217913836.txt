@@ -1,0 +1,478 @@
+Maintenant, je voudrais la réadapter encore plus à mon utilisation pour mon église. Voici de quoi je voudrais m'inspirer , le tout sans prendre en compte les mesures tarifaires:
+
+Les personnes
+Gérer le personnel
+Créez, visualisez, modifiez ou recherchez des profils de personnes, individuellement ou en masse. Importez des listes de personnes, fusionnez les doublons et transférez-les même entre ministères et groupes.
+
+Gérer la communication
+Envoyez des messages électroniques, textuels et vocaux ou des notifications push sur votre ordinateur ou votre téléphone portable, et discutez même via WhatsApp ou Viber.
+
+Créer des annuaires de membres (en ligne et imprimés)
+Permettre aux membres de se voir dans un annuaire en ligne dédié et imprimer des informations sur les membres dans un format personnalisable.
+
+Explorer la fonctionnalité Personnes
+Groupes
+Créer et gérer des groupes
+Utilisez des filtres de recherche avancée pour créer des groupes de personnes, avec des responsables et des photos. Filtrez selon des critères spécifiques ou créez des groupes basés sur des champs personnalisés.
+
+Communiquer avec les groupes
+Envoyez des courriels, des textes ou des notifications push pour ordinateurs et téléphones portables à des groupes spécifiques.
+
+Permettre aux membres d'accéder aux groupes
+Permettre aux membres de voir les groupes dont ils font partie, directement à partir de leur menu principal.
+
+Explorer la fonctionnalité Groupes
+Donner
+Collecter et suivre les contributions des membres et des non-membres
+Collecter, suivre et gérer les contributions des membres et des non-membres, en ligne et hors ligne.
+
+Créer des relevés et des étiquettes d'envoi
+Exportez les données relatives aux cotisations, envoyez les relevés par courrier électronique ou imprimez-les, ou créez des étiquettes de publipostage.
+
+Gérer les promesses de dons
+Créez des campagnes de promesses de dons et suivez automatiquement le montant des contributions des membres par rapport aux montants promis.
+
+Explorer la fonctionnalité Donner
+Planification du culte
+Planifier et structurer les cultes
+Créez des plans de culte clairs et organisés pour chaque service et événement. Organisez les éléments du service tels que les prières, les chants, les sermons et les annonces dans l’ordre exact dont votre église a besoin.
+La planification du culte dans ChMeetings aide les équipes à préparer les services en toute confiance en gardant chaque détail visible et facile à mettre à jour.
+
+Gérez vos chansons et le déroulement du service en un seul endroit
+Stockez tous vos chants de louange dans une bibliothèque centralisée et associez-les directement à vos plans de culte. Trouvez rapidement des chants par titre, tonalité ou thème afin de simplifier votre préparation hebdomadaire.
+En combinant la gestion des chants et la planification du culte, votre équipe évite la confusion de dernière minute et reste concentrée sur un culte significatif.
+
+Coordonner les équipes de louange et les bénévoles
+Attribuez des rôles aux responsables du culte, aux musiciens et aux membres de l’équipe technique pour chaque service. Assurez-vous que chacun connaisse ses responsabilités et son emploi du temps à l’avance.
+Des tâches claires et des plans structurés aident les équipes du culte à rester alignées, préparées et cohérentes d’une semaine à l’autre.
+
+Découvrez la fonctionnalité de planification du culte
+Comptabilité
+Comptabilité par fonds et synchronisation bancaire
+Suivez facilement chaque dollar dans les fonds dédiés. Synchronisez les transactions de votre banque et automatisez la catégorisation à l’aide de règles d’importation personnalisées, ce qui permet d’économiser des heures de travail manuel et de garantir un reporting précis et spécifique à chaque fonds.
+
+Planifier les budgets et générer des rapports
+Planifiez facilement les finances de votre église en établissant des budgets pour les revenus et les dépenses, puis suivez vos progrès tout au long de l’année. Des rapports financiers intégrés (états des revenus et des dépenses, bilans, résumés des fonds, etc.) sont disponibles sur demande, vous donnant un aperçu instantané de la santé financière et de la position nette de votre église.
+
+Imprimer des chèques et simplifier les paiements
+Générez et imprimez des chèques officiels directement à partir du système comptable ChMeetings, éliminant ainsi les chèques manuscrits et les erreurs manuelles. ChMeetings remplit pour vous le bénéficiaire, la date, le montant et les détails du mémo sur vos chèques, afin que vous puissiez rapidement expédier les paiements avec une précision professionnelle.
+
+Découvrez la fonctionnalité Comptabilité
+Gestion des événements
+Créer, gérer et partager des événements
+Créez des événements gratuits et payants, avec ou sans inscription, et invitez des membres et des invités. Partagez les événements et le calendrier de l’église par SMS, e-mail ou notification push.
+
+Programmer les volontaires
+Organisez les bénévoles de votre événement grâce à un système de planification et de roulement, des fonctions d’e-mail dédiées, des rappels, des RSVP et l’option de téléchargement d’une feuille de bénévoles.
+
+Enregistrement des personnes et suivi des présences
+Effectuez un enregistrement rapide à partir d’un ordinateur de bureau ou d’un appareil mobile, y compris en scannant un code QR. Les fonctions d’enregistrement des enfants comprennent l’option de sortie, l’enregistrement par famille et l’impression de badges nominatifs pour les enfants et les parents.
+
+Explorer la fonctionnalité Événements
+Formulaires
+Créer et partager des formulaires
+Ajoutez les champs dont vous avez besoin, personnalisez puis partagez votre formulaire sous forme de lien ou intégrez-le sur le web. Vos membres peuvent le voir dans leur menu ChMeetings, en fonction de la confidentialité spécifique au formulaire que vous avez configurée. Vous pouvez alors voir ce que chaque personne soumet via votre formulaire et mettre à jour son profil en fonction de la soumission - sauf si vous activez les soumissions anonymes .
+
+Ajouter des champs de profil et demander des pièces jointes
+Les formulaires peuvent inclure des champs de profil, afin que les membres puissent facilement mettre à jour leurs informations. Ils peuvent également joindre au formulaire un fichier d'une taille maximale de 5 Mo.
+
+Statistiques de soumission
+Chaque formulaire est accompagné de statistiques de soumission qui fournissent des données ou des graphiques pour chaque question ; elles vous indiquent également le nombre de soumissions de formulaires ( ), le taux d'achèvement ou le temps moyen d'achèvement.
+
+Suivi
+Vue d'ensemble des statuts
+Un tableau de bord simple vous donne un aperçu rapide des suivis actifs, de leurs détails et de leur statut.
+
+Personnaliser la liste des actions
+Créez votre propre liste d'actions qui montrent comment vous servez tous les membres de votre communauté.
+
+Marquer rapidement comme terminé
+Gagnez du temps grâce au bouton « Marquer terminé » sur votre tableau de bord de suivi.
+
+Portail des membres
+Permettre aux gens d'accéder aux réunions en ligne
+Permettre aux membres d'avoir leur propre compte ChMeetings, où ils peuvent jouer le rôle de chef de groupe, gérer leur profil, accéder aux événements, aux formulaires, aux notifications, etc.
+
+Constructeur de pages pour les membres
+Utilisez une interface de type « glisser-déposer » pour créer une page à laquelle les membres et les invités peuvent accéder et qui leur permet de rester en contact avec votre église. Une variété de cartes vous permet d'ajouter des blocs de contenu à la page et de les disposer verticalement, dans l'ordre que vous préférez.
+
+Blog
+Publiez un blog d'église accessible aux membres inscrits et aux invités. Vous pouvez modifier et partager des articles, envoyer des notifications d'articles, activer ou désactiver les likes et les commentaires.
+
+Intégrations
+Applications de communication
+ChMeetings s'intègre à MailChimp pour la gestion des courriels et à Twilio pour l'envoi de messages textuels.
+
+Processeurs de paiement
+Les paiements pour les événements ou la collecte de dons en ligne via ChMeetings sont réalisés grâce à l'intégration avec PayPal et Stripe.
+
+API
+L'API de développement de ChMeetings permet d'envoyer et/ou de recevoir des données relatives aux personnes, aux groupes, aux contributions et aux rapports vers/depuis des applications tierces.
+
+Explorer la page Intégrations
+Organisation du compte
+Transfert de données gratuit depuis n'importe où
+Nous ajouterons vos données gratuitement, où que vous soyez, si vous choisissez l'un de nos plans payants.
+
+Caractéristiques de l'organisation des comptes de haut niveau
+La structure hiérarchique des comptes (Église, ministères et groupes) offre un niveau élevé d'organisation et de sécurité. Créez des ministères et des groupes, désignez des responsables de groupe et veillez à ce que chacun ait le rôle et les autorisations de sécurité appropriés.
+
+Rapports et tableaux de bord
+Chaque personne dispose d'un tableau de bord intuitif lorsqu'elle se connecte à ChMeetings. Ajoutez ou supprimez rapidement des widgets contenant des données sur les personnes, les groupes, les suivis, les événements, les contributions, etc. De nombreux rapports vous permettent de récupérer des données sur les personnes, les événements, l'historique des messages, les journaux d'accès, etc. De nombreux rapports peuvent être exportés et tous sont dotés de fonctions ciblées qui vous permettent d'agir facilement sur les données que vous voyez.
+
+Caractéristiques du diocèse
+Gestion centralisée des églises
+Gérer la communication, les membres, les rapports et plus encore, pour plusieurs églises indépendantes à partir d'un emplacement central.
+
+Élections
+Gérer toutes les étapes des élections diocésaines : Nomination, vérification, confirmation des candidats, vote et résultats.
+
+Membres partagés
+Les membres peuvent appartenir à plusieurs églises au sein du diocèse. Vous pouvez modifier l'église d'origine des membres et suivre ces changements grâce à un rapport spécifique.
+
+L'accès et la protection de la vie privée en toute simplicité
+Application mobile pour les administrateurs et les membres
+Tout le monde à l’église peut utiliser ChMeetings en déplacement, en utilisant notre application mobile, pour Android et iOS. L’application permet à tous les administrateurs et membres de rester à l’écoute, d’envoyer ou de recevoir des notifications et des messages, de consulter, de gérer ou de s’inscrire à des événements, et plus encore, le tout en fonction de leur rôle.
+
+Plusieurs langues prises en charge
+ChMeetings est disponible en anglais, espagnol, français, portugais (Brésil), portugais (Portugal), allemand, italien, néerlandais, russe, chinois (simplifié), chinois (traditionnel), japonais, coréen, vietnamien, roumain, tchèque, danois, suédois, norvégien bokmål, afrikaans, lituanien, amharique, amharique, tigrigna et arabe. Nous travaillons en permanence avec des bénévoles pour soutenir davantage de langues. N’hésitez pas à nous contacter si vous souhaitez contribuer à l’ajout de la vôtre.
+
+Protection de la vie privée et de la sécurité - GDPR Ready
+Gérez ce à quoi chaque personne a accès, au sein d’une plateforme conforme au GDPR, pour laquelle nous investissons continuellement dans une sécurité de pointe. Nous vous donnons également le pouvoir de renforcer la sécurité des membres en vous permettant d’exiger des mots de passe forts lors de l’inscription. Notre hébergement professionnel dans le nuage, avec sauvegarde quotidienne, protège vos données et vous permet d’y accéder à tout moment, où que vous soyez, sur n’importe quel ordinateur de bureau ou appareil mobile.
+
+
+Centraliser Les Informations Sur Les Membres À Tout Moment Et En Tout Lieu
+Créez des profils de membres pour stocker toute information accessible à tout moment et en tout lieu, à partir d'un ordinateur de bureau et d'une application mobile. Visualisez l'activité des membres en matière de dons, de bénévolat, de participation à des événements, de suivi, de messages textuels et bien plus encore.
+
+Importer Gratuitement
+Vous disposez de tous les outils nécessaires pour importer les informations de profil des personnes depuis n'importe où, sans frais supplémentaires. Si vous optez pour une formule payante, nous effectuerons l'importation pour vous, gratuitement.
+
+Communiquer Efficacement
+Communiquez avec les gens via de nombreux canaux. Passez des appels téléphoniques, envoyez des notifications push, des SMS ou des messages vocaux, et des courriels. Envoyez des textos en utilisant WhatsApp, Viber, Telegram ou Facebook Messenger.
+
+Mettre Tout Le Monde En Ligne
+Activez le portail des membres pour permettre aux personnes d'accéder à ChMeetings à l'aide de leur propre compte utilisateur. Ils peuvent ainsi interagir avec le contenu publié, participer à des événements, se porter volontaires, faire des dons, soumettre des formulaires, etc.
+
+Gérer Les Familles
+Ajoutez facilement des membres de votre famille aux profils des personnes et précisez leurs liens de parenté. Les membres peuvent également ajouter leur famille s'ils disposent d'un compte utilisateur.
+
+Groupe Personnes
+Créez des groupes de personnes pour différentes activités, réunissez-vous pour des événements de groupe, désignez des responsables et communiquez facilement avec les groupes.
+
+Trouver Ce Dont Vous Avez Besoin
+Utilisez des champs de profil spécifiques pour effectuer des recherches avancées dans votre base de données de personnes.
+
+Imprimer Un Répertoire, Des Étiquettes Nominatives, Des QR Et D'Autres Éléments
+Imprimez un annuaire des membres, créez des badges, des codes QR ou des cartes, des étiquettes d'envoi ou des lettres.
+
+S'occuper des petits détails
+Montrez à votre communauté que vous êtes attentif aux petits détails qui ont leur importance.
+
+Champs Personnalisés
+Créez des listes, ajoutez des fichiers et stockez toutes sortes d'informations en créant vos propres champs de profil.
+
+Peuple De La Carte
+Cartographiez les adresses, effectuez des recherches avec Google Maps et voyez si vous êtes proche ou éloigné de quelqu'un.
+
+Plusieurs Pays
+Enregistrez les personnes qui se trouvent dans plusieurs pays, à l'aide d'un champ de profil dédié au pays.
+
+L'Avancement Automatique De Grade
+Chaque année, les personnes qui sont encore à l'école sont automatiquement promues à la classe supérieure.
+
+Mise À Jour En Masse Du Profil
+Il n'est pas nécessaire de mettre à jour quelque chose de minuscule pour des centaines de personnes, une par une. Vous pouvez le faire en masse.
+
+Transférer Et Fusionner Des Personnes
+Vous pouvez déplacer des personnes en masse vers un autre ministère ou un autre groupe, trouver et fusionner des profils en double.
+
+En savoir plus
+Vous pouvez faire bien d'autres choses après avoir amené vos collaborateurs à ChMeetings :
+
+Organiser Des Événements Gratuits Et Payants
+L'organisation et la participation à un événement deviennent faciles lorsque tout le monde est connecté.
+
+Programmer Le Volontariat
+Tous les membres de votre église peuvent se porter volontaires pour des événements, et vous disposez d'outils de planification pour cela.
+
+Prendre Des Rendez-Vous
+Avec ou sans compte d'utilisateur, les gens peuvent prendre rendez-vous avec l'équipe de votre église.
+
+Automate Tasks
+Envoyez des rappels, des courriels d'anniversaire et assurez le suivi des donateurs automatiquement.
+
+Assurer Le Suivi
+Créez et gérez facilement des suivis ponctuels ou récurrents avec des statuts, des actions, etc.
+
+Obtenir Des Formulaires Signés Numériquement
+Recueillir des données à l'aide de formulaires complexes et entièrement personnalisables que les personnes peuvent signer numériquement.
+
+Superviser Les Autorisations
+Chacun a un rôle d'utilisateur clair et obtient des autorisations spécifiques, de sorte que vous contrôlez toujours votre sécurité.
+
+Gagner En Lucidité
+Générer divers rapports qui donnent un aperçu de la situation de votre église.
+
+Intégrer Et Développer
+PayPal, Stripe, MailChimp, Twilio, SMS Global, Easysmspro, Zapier et l'API ChMeetings.
+
+Une valeur sûre à un prix abordable
+ChMeetings est l'une des plateformes les plus abordables sur le marché des ChMS. Voici ce que nous offrons en plus :
+
+Inscription Rapide Et Gratuite
+Choisissez notre compte permanent gratuit ou une version d'essai de 14 jours, entièrement fonctionnelle et contenant des données pratiques, pour voir si ChMeeting répond à vos besoins.
+
+Soutien Inclus
+Que vous ayez un plan gratuit ou payant, cela n'a pas d'importance. Nous sommes là pour vous aider à chaque étape, par téléphone, par chat, par e-mail ou par l'intermédiaire de notre centre d'assistance.
+
+Centraliser Les Informations Sur Les Membres À Tout Moment Et En Tout Lieu
+Créez des profils de membres pour stocker toute information accessible à tout moment et en tout lieu, à partir d'un ordinateur de bureau et d'une application mobile. Visualisez l'activité des membres en matière de dons, de bénévolat, de participation à des événements, de suivi, de messages textuels et bien plus encore.
+
+Importer Gratuitement
+Vous disposez de tous les outils nécessaires pour importer les informations de profil des personnes depuis n'importe où, sans frais supplémentaires. Si vous optez pour une formule payante, nous effectuerons l'importation pour vous, gratuitement.
+
+Communiquer Efficacement
+Communiquez avec les gens via de nombreux canaux. Passez des appels téléphoniques, envoyez des notifications push, des SMS ou des messages vocaux, et des courriels. Envoyez des textos en utilisant WhatsApp, Viber, Telegram ou Facebook Messenger.
+
+Mettre Tout Le Monde En Ligne
+Activez le portail des membres pour permettre aux personnes d'accéder à ChMeetings à l'aide de leur propre compte utilisateur. Ils peuvent ainsi interagir avec le contenu publié, participer à des événements, se porter volontaires, faire des dons, soumettre des formulaires, etc.
+
+Gérer Les Familles
+Ajoutez facilement des membres de votre famille aux profils des personnes et précisez leurs liens de parenté. Les membres peuvent également ajouter leur famille s'ils disposent d'un compte utilisateur.
+
+Groupe Personnes
+Créez des groupes de personnes pour différentes activités, réunissez-vous pour des événements de groupe, désignez des responsables et communiquez facilement avec les groupes.
+
+Trouver Ce Dont Vous Avez Besoin
+Utilisez des champs de profil spécifiques pour effectuer des recherches avancées dans votre base de données de personnes.
+
+Imprimer Un Répertoire, Des Étiquettes Nominatives, Des QR Et D'Autres Éléments
+Imprimez un annuaire des membres, créez des badges, des codes QR ou des cartes, des étiquettes d'envoi ou des lettres.
+
+S'occuper des petits détails
+Montrez à votre communauté que vous êtes attentif aux petits détails qui ont leur importance.
+
+Champs Personnalisés
+Créez des listes, ajoutez des fichiers et stockez toutes sortes d'informations en créant vos propres champs de profil.
+
+Peuple De La Carte
+Cartographiez les adresses, effectuez des recherches avec Google Maps et voyez si vous êtes proche ou éloigné de quelqu'un.
+
+Plusieurs Pays
+Enregistrez les personnes qui se trouvent dans plusieurs pays, à l'aide d'un champ de profil dédié au pays.
+
+L'Avancement Automatique De Grade
+Chaque année, les personnes qui sont encore à l'école sont automatiquement promues à la classe supérieure.
+
+Mise À Jour En Masse Du Profil
+Il n'est pas nécessaire de mettre à jour quelque chose de minuscule pour des centaines de personnes, une par une. Vous pouvez le faire en masse.
+
+Transférer Et Fusionner Des Personnes
+Vous pouvez déplacer des personnes en masse vers un autre ministère ou un autre groupe, trouver et fusionner des profils en double.
+
+En savoir plus
+Vous pouvez faire bien d'autres choses après avoir amené vos collaborateurs à ChMeetings :
+
+Organiser Des Événements Gratuits Et Payants
+L'organisation et la participation à un événement deviennent faciles lorsque tout le monde est connecté.
+
+Programmer Le Volontariat
+Tous les membres de votre église peuvent se porter volontaires pour des événements, et vous disposez d'outils de planification pour cela.
+
+Prendre Des Rendez-Vous
+Avec ou sans compte d'utilisateur, les gens peuvent prendre rendez-vous avec l'équipe de votre église.
+
+Automate Tasks
+Envoyez des rappels, des courriels d'anniversaire et assurez le suivi des donateurs automatiquement.
+
+Assurer Le Suivi
+Créez et gérez facilement des suivis ponctuels ou récurrents avec des statuts, des actions, etc.
+
+Obtenir Des Formulaires Signés Numériquement
+Recueillir des données à l'aide de formulaires complexes et entièrement personnalisables que les personnes peuvent signer numériquement.
+
+Superviser Les Autorisations
+Chacun a un rôle d'utilisateur clair et obtient des autorisations spécifiques, de sorte que vous contrôlez toujours votre sécurité.
+
+Gagner En Lucidité
+Générer divers rapports qui donnent un aperçu de la situation de votre église.
+
+Intégrer Et Développer
+PayPal, Stripe, MailChimp, Twilio, SMS Global, Easysmspro, Zapier et l'API ChMeetings.
+
+Une valeur sûre à un prix abordable
+ChMeetings est l'une des plateformes les plus abordables sur le marché des ChMS. Voici ce que nous offrons en plus :
+
+Inscription Rapide Et Gratuite
+Choisissez notre compte permanent gratuit ou une version d'essai de 14 jours, entièrement fonctionnelle et contenant des données pratiques, pour voir si ChMeeting répond à vos besoins.
+
+Soutien Inclus
+Que vous ayez un plan gratuit ou payant, cela n'a pas d'importance. Nous sommes là pour vous aider à chaque étape, par téléphone, par chat, par e-mail ou par l'intermédiaire de notre centre d'assistance.
+
+Payez Au Fur Et À Mesure De Votre Croissance
+Nos plans tarifaires sont abordables et basés sur le nombre de personnes, ce qui vous permet de commencer gratuitement et d'évoluer au fur et à mesure de votre croissance.
+
+
+Bibliothèque de chansons
+Centralisez et organisez vos chansons
+
+Conservez toutes vos chansons de louange dans une bibliothèque consultable. Accédez instantanément aux paroles, aux accords et aux références pour simplifier la planification de vos cultes.
+
+Ajoutez et gérez votre collection de chansons dans une liste facile à parcourir.
+Liez directement les chants aux plans de culte.
+Trouvez rapidement des chansons par titre, tonalité ou thème.
+Modèles
+Créer des modèles de culte réutilisables
+
+Gagnez du temps en partant de modèles éprouvés. Standardisez le déroulement de votre culte et adaptez-le facilement à chaque service.
+
+Créez des modèles à partir de plans de culte existants.
+Réutilisez les modèles pour de futurs événements ou de nouveaux projets.
+Personnalisez et mettez à jour les modèles à tout moment.
+Assurer la cohérence entre les services.
+Bénévoles et rôles
+Coordonner les bénévoles pour chaque service
+
+Connectez vos plans de culte avec les bonnes personnes. Affectez des bénévoles et gérez les rôles.
+
+Définissez et attribuez des rôles tels que responsable du culte, musicien ou technicien.
+Informez les bénévoles des horaires et des responsabilités.
+
+Comptabilité Par Fonds
+Gérez sans effort et avec précision les fonds affectés et restreints de votre église. Les outils de comptabilité des fonds de ChMeetings apportent clarté, transparence et contrôle à chaque dollar reçu par votre ministère.
+
+Répartissez facilement et précisément vos revenus et vos dépenses entre différents fonds.
+
+Générer des rapports spécifiques aux fonds afin de maintenir la transparence financière et la confiance des donateurs.
+
+Suivez les soldes des fonds en temps réel afin de garantir une gestion responsable des ressources de l’église.
+
+Budgétisation Et Suivi Des Dépenses
+Planifiez, gérez et ajustez facilement le budget de votre église. ChMeetings fournit aux trésoriers les outils nécessaires pour suivre les dépenses, contrôler les dépenses et adapter les plans financiers à mesure que les besoins du ministère évoluent.
+
+Suivez les dépenses en temps réel dans tous les ministères, fonds et départements.
+
+Comparez les budgets réels et prévisionnels pour prendre des décisions financières plus éclairées.
+
+Ajustez rapidement les budgets à mesure que les habitudes de dons ou les objectifs ministériels évoluent.
+
+Intégration Des Dons Et De La Comptabilité
+Transférez facilement les lots de contributions dans vos registres comptables. ChMeetings facilite l'enregistrement des dons et vous aide à organiser vos finances.
+
+Déposez des lots en quelques clics seulement
+
+Associez chaque dépôt à des comptes et des fonds spécifiques.
+
+Garantir l’exactitude des rapports en matière de dons et de comptabilité
+
+Synchronisation Bancaire
+Consacrez moins de temps à la comptabilité et plus à votre ministère. Connectez les comptes bancaires de votre église à ChMeetings et importez facilement vos transactions.
+
+Connectez vos comptes en toute sécurité à l’aide de Plaid
+
+Importez vos transactions à tout moment grâce à l’outil de catégorisation automatique des règles d’importation.
+
+Catégorisez vos dépenses à l’aide d’étiquettes personnalisées pour obtenir des rapports clairs.
+
+Rapports Financiers De L'Église
+De la clarté quotidienne à une analyse financière approfondie, ChMeetings fournit aux trésoriers et aux équipes financières tous les rapports dont ils ont besoin, intégrés, faciles à générer et prêts à être partagés.
+
+Accédez aux principaux états financiers tels que le compte de résultat et le bilan pour garder le contrôle de la santé financière de votre église.
+
+Explorez les fonds, les catégories et les bénéficiaires grâce à des aperçus détaillés et des rapports de transactions pour un suivi transparent.
+
+Comparez le budget aux résultats réels et surveillez les tendances mensuelles grâce aux rapports d’analyse budgétaire et de comparaison budgétaire.
+
+Exportez instantanément vos rapports pour les partager avec les conseils d’administration, les dirigeants ou les auditeurs.
+
+Rapprochement Des Comptes
+Assurez-vous que les registres financiers de votre église sont cohérents et exempts d'erreurs en effectuant le rapprochement des comptes directement dans ChMeetings.
+
+Réconciliez plusieurs comptes grâce à une interface simple et intuitive, étape par étape.
+
+Faites correspondre les transactions bancaires avec vos registres comptables pour vérifier leur exactitude.
+
+Détectez rapidement les entrées manquantes ou en double et préservez l’intégrité financière.
+
+Importations Intelligentes Avec Règles Personnalisées
+Automatisez la catégorisation des transactions tout en conservant un contrôle total sur l'attribution du compte, du fonds et de la catégorie afin que les finances de votre église restent précises et organisées.
+
+Définissez des règles d’importation pour attribuer automatiquement le compte, la catégorie et le fonds appropriés lors de l’importation des transactions.
+
+Vérifiez et modifiez les données importées avant leur finalisation afin de garantir leur exactitude totale.
+
+Imprimer Les Chèques
+Imprimez des chèques professionnels directement depuis ChMeetings et rationalisez la gestion des paiements de votre église avec précision et facilité.
+
+Imprimez vos chèques directement à partir de vos transactions de dépenses pour gagner du temps et réduire les erreurs.
+
+Définissez plusieurs modèles de chèques et choisissez votre style de chèque préféré pour chaque transaction.
+
+Personnalisez l’alignement et la mise en page pour qu’ils correspondent parfaitement à votre stock de chèques.
+
+Organisez et partagez des événements gratuits et payants
+Créez et partagez des événements gratuits ou payants pour renforcer votre communauté et développer votre église.
+
+Créer des événements uniques ou récurrents
+Que votre événement ait lieu un seul jour ou qu’il se répète quotidiennement, hebdomadairement, mensuellement ou annuellement, vous pouvez planifier et gérer chaque occurrence dans les moindres détails.
+
+Calendrier des bénévoles
+Créez des rôles et affectez des bénévoles, envoyez des formulaires d’inscription, communiquez et envoyez des rappels, ou créez une liste de bénévoles.
+
+Créer des plans de service
+Ajoutez des écrits, des chansons, des notes et d’autres contenus que vous pourrez partager avec d’autres personnes en ligne ou distribuer sous forme de brochures afin que vos événements se déroulent sans encombre.
+
+Partager le lieu de l'événement
+Il vous suffit d’indiquer l’adresse où se déroulera votre événement et les gens pourront le voir sur Google Maps, ce qui leur permettra de trouver facilement comment se rendre chez vous.
+
+Créer et partager des calendriers
+Ajoutez vos événements à des calendriers partageables et codés par couleur, que vous pouvez gérer depuis ChMeetings et que tout le monde peut consulter en ligne, de manière publique ou en fonction de son adhésion.
+
+Créez une nouvelle source de revenus grâce à vos événements
+Organisez facilement des événements payants ou collectez des dons pour augmenter le financement de votre église.
+
+Créer des types de tickets
+Vous pouvez créer différents types de billets afin d’offrir aux utilisateurs différentes options tarifaires, par exemple des billets à la journée ou des billets avec accès complet.
+
+Offrir des remises
+Encouragez davantage de personnes à participer à vos événements payants en proposant des codes promotionnels ou des réductions pour les inscriptions anticipées ou les groupes.
+
+Proposer des paiements partiels ou différés et des remboursements
+Encouragez la participation même si les gens ne peuvent pas payer immédiatement. Les paiements pour les événements peuvent être partiels ou effectués plus tard. Si quelqu’un annule, vous pouvez également proposer des remboursements.
+
+Collecter des dons
+Lorsqu’ils s’inscrivent à vos événements, les participants peuvent choisir de faire un don à votre église, que l’événement soit gratuit ou payant.
+
+Gérer les paiements liés aux événements
+La section consacrée aux paiements des événements vous permet de gérer une liste de paiements, de modifier des enregistrements individuels ou de communiquer avec les personnes qui ont payé pour un événement.
+
+Gérer le registre des événements
+Choisissez si vous souhaitez demander aux personnes de s’inscrire à vos événements et configurez plusieurs options d’inscription.
+
+Formulaires d'inscription obligatoires
+Vous pouvez créer des formulaires entièrement personnalisés que vous pouvez rendre obligatoires lors de l’inscription à l’événement. De cette façon, vous pouvez recueillir toutes les informations nécessaires auprès des participants.
+
+Enregistrer les invités
+Toute nouvelle personne dans votre église peut s’inscrire à vos événements en tant qu’invité. Une fois inscrite, ses coordonnées seront enregistrées dans votre base de données afin que vous puissiez l’ajouter comme membre ultérieurement.
+
+Inscription au calendrier
+Vous pouvez configurer les heures exactes d’ouverture et de fermeture des inscriptions à l’événement.
+
+Gérer l'enregistrement
+Chaque événement se déroule sans encombre lorsque vous disposez des bons outils d’enregistrement.
+
+Suivre la fréquentation
+Gérez facilement l’enregistrement des participants à vos événements grâce à des options telles que l’enregistrement automatique, la lecture de codes QR ou le mode kiosque. Vous pouvez également enregistrer les départs et suivre la fréquentation à l’aide de rapports prêts à l’emploi et dédiés.
+
+Enregistrement des enfants et des familles
+Vous pouvez activer l’enregistrement des familles et des enfants, et imprimer des badges nominatifs indiquant des informations spécifiques via des champs personnalisés dans les profils des membres.
+
+Enregistrement des clients
+Vous pouvez également ajouter des participants invités lors de l’enregistrement et enregistrer leurs informations dans votre base de données pour une utilisation ultérieure.
+
+Obtenez un excellent rapport qualité-prix à un prix abordable
+ChMeetings est l’une des plateformes les plus abordables du marché ChMS. Voici ce que nous proposons également :
+
+
+
+Explique moi seulement quels seraient les prochaines étapes pour y parvenir avec la  base que j'ai actuellement

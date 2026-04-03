@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Church Management Platform"
+version = "1.0.0"
+id = "artifacts/church-app"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24045
+
+[services.development]
+run = "pnpm --filter @workspace/church-app run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/church-app", "run", "build" ]
+publicDir = "artifacts/church-app/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24045"
+BASE_PATH = "/"

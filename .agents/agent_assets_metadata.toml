@@ -1,0 +1,14 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "wxAVMsVZaW7vWzdkcL4T0"
+uri = "file://artifacts/church-app/src/assets/hero.png"
+type = "image"
+title = "modern church interior morning light"
+
+[[generated]]
+id = "6EGkLJ9sJYmiPcQKhEZrC"
+uri = "file://artifacts/church-app/src/assets/community.png"
+type = "image"
+title = "diverse community group gathering"
