@@ -253,7 +253,7 @@ export function Sidebar({ collapsed, onToggle, onMobileClose }: SidebarProps) {
               className="flex flex-col overflow-hidden"
             >
               <span className="text-[15px] font-bold tracking-tight text-black leading-none" style={{ letterSpacing: "-0.02em" }}>
-                Lumina
+                Nations Shakers Centre
               </span>
               <span className="text-[9px] font-semibold text-muted-foreground uppercase tracking-[0.12em] leading-none mt-0.5"
                 style={{ fontFamily: "'Manrope', sans-serif" }}>

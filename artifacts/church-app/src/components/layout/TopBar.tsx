@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { Link } from "wouter";
 import {
   Search,
@@ -6,7 +6,6 @@ import {
   Globe,
   ChevronDown,
   Menu,
-  X,
   Church,
   UserPlus,
   Heart,
@@ -50,23 +49,11 @@ interface TopBarProps {
 export function TopBar({ onMobileMenuToggle }: TopBarProps) {
   const [lang, setLang] = useState(languages[0]);
   const [langOpen, setLangOpen] = useState(false);
-  const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const [notifOpen, setNotifOpen] = useState(false);
-  const searchInputRef = useRef<HTMLInputElement>(null);
 
   const notifications = useDemoState((s) => s.notifications);
   const dispatch = useDemoDispatch();
   const unreadCount = useMemo(() => notifications.filter((n) => !n.read).length, [notifications]);
-
-  useEffect(() => {
-    if (mobileSearchOpen) {
-      searchInputRef.current?.focus();
-    }
-  }, [mobileSearchOpen]);
-
-  const handleSearchFocus = () => {
-    openCommandPalette();
-  };
 
   return (
     <header className="topbar-shell relative z-20 h-[3.25rem] sm:h-[4.25rem] shrink-0 flex items-center gap-2 sm:gap-4 px-3 sm:px-6 lg:px-8">
@@ -84,57 +71,33 @@ export function TopBar({ onMobileMenuToggle }: TopBarProps) {
         <Menu className="w-[18px] h-[18px]" strokeWidth={2} />
       </button>
 
-      {!mobileSearchOpen && (
+      <button
+        type="button"
+        aria-label="Search"
+        className="topbar-icon-btn sm:hidden shrink-0"
+        onClick={openCommandPalette}
+      >
+        <Search className="w-[18px] h-[18px]" strokeWidth={2} />
+      </button>
+
+      <div className="min-w-0 flex-1 hidden sm:flex sm:max-w-md lg:max-w-lg">
         <button
           type="button"
-          aria-label="Search"
-          className="topbar-icon-btn sm:hidden shrink-0"
-          onClick={() => {
-            setMobileSearchOpen(true);
-            openCommandPalette();
-          }}
+          aria-label="Open search"
+          onClick={openCommandPalette}
+          className="topbar-search relative flex w-full items-center gap-2.5 rounded-2xl px-3.5 py-2 sm:py-2.5 text-left touch-manipulation"
         >
-          <Search className="w-[18px] h-[18px]" strokeWidth={2} />
-        </button>
-      )}
-
-      <div
-        className={`min-w-0 flex-1 sm:max-w-md lg:max-w-lg ${
-          mobileSearchOpen ? "flex" : "hidden sm:flex"
-        }`}
-      >
-        <label className="topbar-search relative flex w-full items-center gap-2.5 rounded-2xl px-3.5 py-2 sm:py-2.5 cursor-text">
           <Search className="w-4 h-4 shrink-0 text-[#5932EA]/70" strokeWidth={2.25} />
-          <input
-            ref={searchInputRef}
-            type="search"
-            placeholder="Search members, events, groups…"
-            readOnly
-            onClick={handleSearchFocus}
-            onFocus={handleSearchFocus}
-            className="min-w-0 flex-1 bg-transparent text-sm text-foreground placeholder:text-muted-foreground/70 outline-none tracking-tight cursor-pointer"
-          />
+          <span className="min-w-0 flex-1 text-sm text-muted-foreground/70 tracking-tight truncate">
+            Search members, events, groups…
+          </span>
           <kbd className="hidden md:inline-flex items-center gap-0.5 font-label text-[10px] font-semibold text-muted-foreground/90 bg-white/80 px-2 py-1 rounded-lg border border-[#c9c4d9]/50 shadow-sm">
             ⌘K
           </kbd>
-          {mobileSearchOpen && (
-            <button
-              type="button"
-              aria-label="Close search"
-              className="topbar-icon-btn !w-8 !h-8 sm:hidden shrink-0"
-              onClick={() => setMobileSearchOpen(false)}
-            >
-              <X className="w-4 h-4" strokeWidth={2} />
-            </button>
-          )}
-        </label>
+        </button>
       </div>
 
-      <div
-        className={`ml-auto flex shrink-0 items-center ${
-          mobileSearchOpen ? "hidden sm:flex" : "flex"
-        }`}
-      >
+      <div className="ml-auto flex shrink-0 items-center">
         <div className="topbar-actions flex items-center gap-0.5 sm:gap-1 rounded-2xl p-1 sm:p-1.5">
           <div className="relative">
             <button

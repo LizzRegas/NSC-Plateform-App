@@ -1,12 +1,15 @@
-import { useToast } from "@/hooks/use-toast";
+import { useToast, TOAST_DURATION } from "@/hooks/use-toast";
 
 export function useDemoToast() {
   const { toast } = useToast();
+  const notify = (options: Parameters<typeof toast>[0]) =>
+    toast({ duration: TOAST_DURATION, ...options });
+
   return {
-    toast,
+    toast: notify,
     success: (title: string, description?: string) =>
-      toast({ title, description }),
+      notify({ title, description }),
     error: (title: string, description?: string) =>
-      toast({ title, description, variant: "destructive" }),
+      notify({ title, description, variant: "destructive" }),
   };
 }
