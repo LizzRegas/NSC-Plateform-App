@@ -2,12 +2,12 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link, useLocation } from "wouter";
 import {
-  LayoutDashboard, Users, UserCircle, UsersRound, BookOpen, Target,
+  LayoutDashboard, Users, UserCircle, UsersRound, Users2, BookOpen, Target,
   Heart, CreditCard, BarChart3, FileSpreadsheet, Receipt, Music2,
-  CalendarRange, Headphones, CalendarDays, ClipboardList, QrCode,
+  CalendarRange, Headphones, CalendarDays, CalendarPlus, ClipboardList, QrCode,
   Mail, MessageSquare, Bell, FileText, Globe2, Settings, ChevronLeft,
   ChevronRight, ChevronDown, Building2, PieChart, Banknote, CheckSquare,
-  Smartphone, X,
+  Smartphone, X, CalendarClock,
 } from "lucide-react";
 
 interface SidebarProps {
@@ -37,8 +37,16 @@ const navSections: NavSection[] = [
     items: [
       { icon: UserCircle, label: "Members", href: "/members" },
       { icon: UsersRound, label: "Groups", href: "/groups" },
+      { icon: Users2, label: "Teams", href: "/teams" },
       { icon: BookOpen, label: "Directory", href: "/directory" },
       { icon: Target, label: "Follow-up", href: "/followup" },
+    ],
+  },
+  {
+    label: "Appointments", icon: CalendarClock, defaultOpen: true,
+    items: [
+      { icon: CalendarPlus, label: "Book a slot", href: "/appointments/available" },
+      { icon: CalendarDays, label: "To schedule", href: "/appointments/schedule" },
     ],
   },
   {
@@ -101,9 +109,20 @@ const bottomItems: NavItem[] = [
   { icon: Settings, label: "Settings", href: "/settings" },
 ];
 
+function isNavItemActive(href: string, location: string): boolean {
+  if (href === "/") return location === "/";
+  if (href === "/members") return location === "/members" || location.startsWith("/members/");
+  if (href === "/groups") return location === "/groups" || location.startsWith("/groups/");
+  if (href === "/teams") return location === "/teams" || location.startsWith("/teams/");
+  if (href === "/appointments/available" || href === "/appointments/schedule") {
+    return location.startsWith("/appointments");
+  }
+  return location === href;
+}
+
 function NavLeaf({ item, collapsed, onClick }: { item: NavItem; collapsed: boolean; onClick?: () => void }) {
   const [location] = useLocation();
-  const isActive = item.href === location;
+  const isActive = isNavItemActive(item.href, location);
 
   return (
     <Link href={item.href} onClick={onClick}>
@@ -111,9 +130,9 @@ function NavLeaf({ item, collapsed, onClick }: { item: NavItem; collapsed: boole
         className={`group relative flex items-center gap-2.5 px-3 py-2 rounded-lg cursor-pointer transition-all duration-150 select-none ${
           isActive
             ? "bg-primary text-primary-foreground shadow-sm"
-            : "text-foreground/55 hover:text-foreground hover:bg-accent"
+            : "text-slate-400 hover:text-zinc-700 hover:bg-slate-50"
         } ${collapsed ? "justify-center" : ""}`}
-        style={isActive ? { boxShadow: "0 2px 8px rgba(37,99,235,0.28), inset 0 1px 0 rgba(255,255,255,0.15)" } : {}}
+        style={isActive ? { boxShadow: "0 8px 20px rgba(89, 50, 234, 0.22)" } : {}}
         title={collapsed ? item.label : undefined}
       >
         <item.icon className={`shrink-0 ${collapsed ? "w-[18px] h-[18px]" : "w-4 h-4"}`} strokeWidth={2} />
@@ -145,14 +164,16 @@ function NavLeaf({ item, collapsed, onClick }: { item: NavItem; collapsed: boole
 function NavGroup({ section, collapsed, onLeafClick }: { section: NavSection; collapsed: boolean; onLeafClick?: () => void }) {
   const [open, setOpen] = useState(section.defaultOpen ?? false);
   const [location] = useLocation();
-  const hasActive = section.items.some((i) => i.href === location);
+  const hasActive =
+    section.items.some((i) => isNavItemActive(i.href, location)) ||
+    (section.label === "Appointments" && location.startsWith("/appointments"));
 
   return (
     <div>
       <button
         onClick={() => !collapsed && setOpen(!open)}
         className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-lg transition-all duration-150 group select-none ${
-          hasActive ? "text-primary" : "text-foreground/40 hover:text-foreground/70"
+          hasActive ? "text-[#5932EA]" : "text-slate-400 hover:text-zinc-600"
         } ${collapsed ? "justify-center" : "justify-between"}`}
         title={collapsed ? section.label : undefined}
       >
@@ -212,12 +233,14 @@ export function Sidebar({ collapsed, onToggle, onMobileClose }: SidebarProps) {
     <motion.aside
       animate={{ width: collapsed ? 68 : 252 }}
       transition={{ duration: 0.28, ease: [0.4, 0, 0.2, 1] }}
-      className="relative flex flex-col h-full bg-sidebar border-r border-sidebar-border shrink-0 z-20 overflow-hidden sidebar-shadow"
+      className="relative flex flex-col h-full bg-white border-r border-zinc-100/80 shrink-0 z-20 overflow-hidden sidebar-shadow"
     >
       {/* Logo */}
-      <div className={`flex items-center h-16 shrink-0 px-4 border-b border-sidebar-border ${collapsed ? "justify-center" : "gap-3"}`}>
-        <div className="w-8 h-8 rounded-xl flex items-center justify-center shrink-0"
-          style={{ background: "linear-gradient(135deg, #3B82F6, #2563EB)", boxShadow: "0 4px 12px rgba(37,99,235,0.3), inset 0 1px 0 rgba(255,255,255,0.2)" }}>
+      <div className={`flex items-center h-16 shrink-0 px-4 border-b border-zinc-100 ${collapsed ? "justify-center" : "gap-3"}`}>
+        <div
+          className="w-8 h-8 rounded-xl flex items-center justify-center shrink-0 bg-[#5932EA]"
+          style={{ boxShadow: "0 4px 14px rgba(89, 50, 234, 0.35), inset 0 1px 0 rgba(255,255,255,0.12)" }}
+        >
           <Building2 className="w-[18px] h-[18px] text-white" />
         </div>
         <AnimatePresence>
@@ -229,8 +252,7 @@ export function Sidebar({ collapsed, onToggle, onMobileClose }: SidebarProps) {
               transition={{ duration: 0.18 }}
               className="flex flex-col overflow-hidden"
             >
-              <span className="text-[15px] font-bold tracking-tight text-foreground leading-none"
-                style={{ fontFamily: "'Poppins', sans-serif", letterSpacing: "-0.02em" }}>
+              <span className="text-[15px] font-bold tracking-tight text-black leading-none" style={{ letterSpacing: "-0.02em" }}>
                 Lumina
               </span>
               <span className="text-[9px] font-semibold text-muted-foreground uppercase tracking-[0.12em] leading-none mt-0.5"
@@ -261,7 +283,7 @@ export function Sidebar({ collapsed, onToggle, onMobileClose }: SidebarProps) {
       </nav>
 
       {/* Bottom */}
-      <div className="shrink-0 border-t border-sidebar-border px-2 py-3 space-y-0.5">
+      <div className="shrink-0 border-t border-zinc-100 px-2 py-3 space-y-0.5">
         {bottomItems.map((item) => (
           <NavLeaf key={item.label} item={item} collapsed={collapsed} onClick={onMobileClose} />
         ))}
