@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist/public",
+  "framework": "vite",
+  "installCommand": "pnpm install",
+  "env": {
+    "BASE_PATH": "/"
+  },
+  "rewrites": [
+    {
+      "source": "/((?!assets/|favicon\\.svg|opengraph\\.jpg).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

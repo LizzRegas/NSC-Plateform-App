@@ -61,3 +61,18 @@ artifacts/church-app/     Main Lumina admin SPA
 ## License
 
 MIT
+
+## Deploy on Vercel
+
+1. Import the GitHub repo on [Vercel](https://vercel.com).
+2. Set **Root Directory** to `artifacts/church-app`.
+3. Vercel reads `artifacts/church-app/vercel.json` automatically (`outputDirectory`: `dist/public`, SPA rewrites, `BASE_PATH=/`).
+4. Redeploy after each push to `main`.
+
+If the dashboard overrides settings manually, use:
+
+| Setting | Value |
+|---------|--------|
+| Build Command | `pnpm run build` |
+| Output Directory | `dist/public` |
+| Install Command | `pnpm install` |
